@@ -1,4 +1,4 @@
-# Advanced Software Architecture Portfolio Template
+# Advanced Software Architecture and Analysis Portfolio Template
 
 - [Introduction](#introduction)
   - [.github](#github)
