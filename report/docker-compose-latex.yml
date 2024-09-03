@@ -8,8 +8,5 @@ services:
       dockerfile: Dockerfile
     volumes:
       - type: bind
-        source: ./ReflectionsTemplate
-        target: /reflection
-      - type: bind
         source: ./GroupTemplate
         target: /groupreport
