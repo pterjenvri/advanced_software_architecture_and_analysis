@@ -36,6 +36,16 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+# LaTex build results
+*.fdb_latexmk
+*.aux
+*.bbl
+*.blg
+*.fls
+*.out
+*.synctex.gz
+report/**/*.pdf
+
 # Visual Studio 2015/2017 cache/options directory
 .vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
