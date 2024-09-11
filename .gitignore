@@ -43,7 +43,7 @@ bld/
 *.blg
 *.fls
 *.out
-*.synctex.gz
+*.synctex*
 report/**/*.pdf
 
 # Visual Studio 2015/2017 cache/options directory
