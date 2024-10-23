@@ -1,0 +1,25 @@
+services:
+  rabbitmq:
+    image: rabbitmq:4-management
+    container_name: rabbitmq
+    ports:
+        - 8080:15672
+
+  postgresdb:
+    image: postgres:17
+    container_name: postgresdb
+    environment:
+        - POSTGRES_USER=postgres
+        - POSTGRES_PASSWORD=postgres
+    ports:
+        - 5432:5432
+    
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin4
+    environment:
+        - PGADMIN_DEFAULT_EMAIL=sdugroup6@sdu.dk
+        - PGADMIN_DEFAULT_PASSWORD=Admin123!
+    ports:
+        - 80:80
