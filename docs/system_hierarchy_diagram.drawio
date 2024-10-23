@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13">
+  <diagram name="1 oldal" id="bbQASDjgaQnYafbqLm8M">
+    <mxGraphModel dx="2327" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yffE6VVLCiyPCEnXKCdG-1" target="yffE6VVLCiyPCEnXKCdG-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yffE6VVLCiyPCEnXKCdG-1" target="yffE6VVLCiyPCEnXKCdG-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yffE6VVLCiyPCEnXKCdG-1" target="yffE6VVLCiyPCEnXKCdG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yffE6VVLCiyPCEnXKCdG-1" target="yffE6VVLCiyPCEnXKCdG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-1" value="Production System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yffE6VVLCiyPCEnXKCdG-2" target="yffE6VVLCiyPCEnXKCdG-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yffE6VVLCiyPCEnXKCdG-2" target="yffE6VVLCiyPCEnXKCdG-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-2" value="Production Management System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yffE6VVLCiyPCEnXKCdG-3" target="yffE6VVLCiyPCEnXKCdG-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yffE6VVLCiyPCEnXKCdG-3" target="yffE6VVLCiyPCEnXKCdG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-3" value="Supply Chain Management System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yffE6VVLCiyPCEnXKCdG-4" target="yffE6VVLCiyPCEnXKCdG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yffE6VVLCiyPCEnXKCdG-4" target="yffE6VVLCiyPCEnXKCdG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-4" value="Communication Management System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yffE6VVLCiyPCEnXKCdG-5" target="yffE6VVLCiyPCEnXKCdG-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="yffE6VVLCiyPCEnXKCdG-5" target="yffE6VVLCiyPCEnXKCdG-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-5" value="Availability Management System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-6" value="Production Control System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-7" value="Monitoring System" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-9" value="Order Management System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-10" value="Material Management System" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-11" value="Information Exchange System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-12" value="Event Management System" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="680" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-13" value="Availability Planning System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yffE6VVLCiyPCEnXKCdG-14" value="Service Monitoring System" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
