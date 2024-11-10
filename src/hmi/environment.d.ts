@@ -4,5 +4,6 @@ declare namespace NodeJS {
     readonly NEXT_PUBLIC_MQTT_USERNAME: string;
     readonly NEXT_PUBLIC_MQTT_PASSWORD: string;
     readonly NEXT_PUBLIC_MQTT_CLIENTID: string;
+    readonly CONNECTION_STRING: string;
   }
 }

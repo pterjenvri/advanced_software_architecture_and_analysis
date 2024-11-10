@@ -4,6 +4,8 @@ services:
     container_name: rabbitmq
     ports:
         - 8080:15672
+        - 5672:5672
+        - 5671:5671
 
   postgresdb:
     image: postgres:17
