@@ -9,9 +9,6 @@ export default async function handler(
 ) {
     const message: Message = req.body;
     const queue = 'agc_jobs';
-    
-
-    const url = 'amqp://guest:guest@localhost/';
 
     try {
         const rabbitMQService = await new RabbitMQService().setup();

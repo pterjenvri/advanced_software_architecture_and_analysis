@@ -25,7 +25,7 @@ export default class RabbitMQService {
 
     private async initializeConnection() {
         try {
-            this.connection = await amqp.connect("amqp://guest:guest@localhost/")
+            this.connection = await amqp.connect(`${process.env.RABBITMQ_URL}`);
             console.log('Connected to RabbitMQ server');
         } catch (err) {
             throw err;

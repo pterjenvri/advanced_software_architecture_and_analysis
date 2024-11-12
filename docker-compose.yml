@@ -6,6 +6,12 @@ services:
         - 8080:15672
         - 5672:5672
         - 5671:5671
+    healthcheck:
+      test: rabbitmq-diagnostics -q ping
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 10s
 
   postgresdb:
     image: postgres:17
@@ -16,7 +22,6 @@ services:
     ports:
         - 5432:5432
     
-
   pgadmin:
     image: dpage/pgadmin4
     container_name: pgadmin4
@@ -25,3 +30,23 @@ services:
         - PGADMIN_DEFAULT_PASSWORD=Admin123!
     ports:
         - 80:80
+
+  asaa-hmi:
+    image: asaa-hmi
+    container_name: asaa-hmi
+    environment:
+        - DB_HOST=postgresdb
+        - RABBITMQ_URL=amqp://guest:guest@rabbitmq/
+    restart: always
+    ports:
+        - 3000:3000
+
+  asaa-agc:
+    image: asaa-agc
+    container_name: asaa-agc
+    environment:
+        - DB_HOST=postgresdb
+        - RABBITMQ_HOST=rabbitmq
+    depends_on:
+      rabbitmq:
+        condition: service_healthy

@@ -8,7 +8,7 @@ export default class DatabaseService {
             user: 'postgres',
             password: 'postgres',
             database: 'postgres',
-            host: 'localhost',
+            host: process.env.DB_HOST,
             port: 5432
         });
         return conn;

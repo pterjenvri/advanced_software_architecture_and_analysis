@@ -2,11 +2,17 @@ import pika
 import time
 import psycopg2
 import json
+import os
+from dotenv import load_dotenv
 
-pg_connection = psycopg2.connect(database="postgres", user="postgres", password="postgres", host="localhost", port=5432)
+load_dotenv()
+
+db_host = os.getenv('DB_HOST')
+rabbitmq_host = os.getenv('RABBITMQ_HOST')
+pg_connection = psycopg2.connect(database="postgres", user="postgres", password="postgres", host=db_host, port=5432)
 pg_cursor = pg_connection.cursor()
 connection = pika.BlockingConnection(
-    pika.ConnectionParameters(host='localhost'))
+    pika.ConnectionParameters(host=rabbitmq_host))
 channel = connection.channel()
 
 channel.queue_declare(queue='agc-jobs', durable=True)

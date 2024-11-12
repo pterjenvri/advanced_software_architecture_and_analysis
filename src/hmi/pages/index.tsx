@@ -1,5 +1,5 @@
 import { useState, /*useRef,*/ ChangeEvent } from "react";
-import { postMq } from "../services/apiService";
+import { crash, postMq } from "../services/apiService";
 
 export default function Home() {
 
@@ -14,6 +14,10 @@ export default function Home() {
     }
   };
 
+  const handleSimulateError = () => {
+    crash();
+  };
+
   const productChanged = (event: ChangeEvent<HTMLSelectElement>) => {
     console.log(`${event.target.value}`);
   }
@@ -26,6 +30,9 @@ export default function Home() {
       </select>
       <button type="button"
         onClick={handleClick}>{buttonText}
+      </button>
+      <button onClick={handleSimulateError} type="button">
+        Simulate error
       </button>
     </div>
   );
