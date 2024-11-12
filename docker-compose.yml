@@ -43,10 +43,12 @@ services:
 
   asaa-agc:
     image: asaa-agc
-    container_name: asaa-agc
     environment:
         - DB_HOST=postgresdb
         - RABBITMQ_HOST=rabbitmq
     depends_on:
       rabbitmq:
         condition: service_healthy
+    deploy:
+      mode: replicated
+      replicas: 2
