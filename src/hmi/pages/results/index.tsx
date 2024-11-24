@@ -41,30 +41,28 @@ export default function Home() {
       `}</style>
       <h1>Log Data</h1>
       <ul>
-        {logs.map((log) => (
-          <table className="table table-bordered">
-            <thead>
+        <table className="table table-bordered">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Start Time</th>
+              <th>End Time</th>
+              <th>Elapsed Time</th>
+              <th>Ack</th>
+            </tr>
+          </thead>
+          <tbody>
+            {logs.map((log) => (
               <tr>
-                <th>Id</th>
-                <th>Start Time</th>
-                <th>End Time</th>
-                <th>Elapsed Time</th>
-                <th>Ack</th>
+                <td>{log.id}</td>
+                <td>{log.starttime}</td>
+                <td>{log.endtime}</td>
+                <td>{log.elapsedtime}</td>
+                <td>{log.ack}</td>
               </tr>
-            </thead>
-            <tbody>
-              {logs.map((log) => (
-                <tr>
-                  <td>{log.id}</td>
-                  <td>{log.starttime}</td>
-                  <td>{log.endtime}</td>
-                  <td>{log.elapsedtime}</td>
-                  <td>{log.ack}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        ))}
+            ))}
+          </tbody>
+        </table>
       </ul>
     </div>
   );
