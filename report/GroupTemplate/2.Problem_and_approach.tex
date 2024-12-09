@@ -1,0 +1,28 @@
+\section{Problem and Approach}
+
+\label{sec:problem}
+\emph{Problem.}
+The purpose of this paper is to address the challenges that a small pharmaceutical company could face when creating small-batch experimental medicine and capsules. The limitation of this pharmaceutical company is that they only possess one production line and that the production line is expected to operate 7 hours a day, 5 days a week on average, and that the product changes frequently, even multiple times a day. While the company is small, it is expecting huge growth in a short period of time, which means that the system should be scalable and competitive in regard to the market. The requirements for this system are 
+\begin{enumerate}
+    \item Production software must be able to exchange and coordinate information to execute a production and change production,
+    \item Production software must run 24/7,
+    \item The production software must be continuously deployable.
+\end{enumerate}
+These requirements are aspects that must directly be accounted for when designing the architecture of the software system, potentially weighing other quality attributes of the architecture over others. To ensure good architecture design, i.e., by evaluating that the requirements are satisfied, modeling of crucial properties and behaviors of our architecture must be validated and verified. 
+This leads to the following 
+\emph{Research questions:}
+\begin{enumerate}
+    \item  How can different architectures support the stated production system requirements?
+    \item  Which architectural tradeoffs must be taken due to the technology choices?
+    \item Which properties can be modeled, validated and verified and what are the results?
+\end{enumerate}
+
+\emph{Approach.}
+The following steps are taken to answer this paper's research questions: 
+\begin{enumerate}
+    \item Defining use cases to introduce quality attributes relevant to the requirements
+    \item Design and analyze the system structure
+    \item Formal verification and validation of the systems requirements 
+    \item Conduct an experiment
+    \item Evaluation of the proposed design in addition to the outcome of the experiment
+\end{enumerate}

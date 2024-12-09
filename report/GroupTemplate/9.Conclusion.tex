@@ -1,0 +1,20 @@
+\section{Conclusion}
+\label{sec:conclusion}
+%Conclusion of the report, discussion and relevant future work.
+
+\subsection{Discussion}
+\label{sec:Discussion}
+%Summary of the work and result(from slides)
+%- Discuss our architecture and initial problem/requirements and compare it to the result.(what do we think about it now?) 
+The aim of this paper was to solve the obstacles that the pharmaceutical company was facing in order to grow its business and manufacturing capabilities. This came from a list of requirements from this company, (1) as seen in \ref{sec:problem}. Three research questions were then defined from these requirements, (1) How can different architectures support the stated production system requirements?, (2) Which architectural trade offs must be taken due to the technology choices? (3) Which properties can be modeled, validated, and verified, and what are the results? The proposition we came up with was the software architecture seen in two levels \ref{Featuremodel} and \ref{fig:boat1}. These models were made as a prototype of the proposed architecture due to time constraints and the scope of our project. The most vital part was modeled here and implemented to facilitate the chosen quality attributes in our system, namely availability and integrity. The proposed design we chose ensured more availability and integrity by incorporating various tactics from each of the attributes. This led to a trade-off of other attributes and technologies for the system such as performance. The experiment emerging from the design was successful in demonstrating that availability and integrability was incorporated into the architecture. The results from both the formal verification and the experiment were satisfactory as they both fulfilled the requirement defined in \ref{tab:req_table}. By containerizing the each component of the system, scalability capabilities has increased heavily also, as Additional services can be added to the container and split the workload.  
+
+
+%- Discuss our approach to the problem?(usercase - qa- formal verification - implementation - experiment)
+%- Discuss the validity of our experiment(how did this?)
+
+\subsection{Future work}
+\label{sec:future_work}
+%Discuss how the work can be extended with respect to the approach and/or evaluation(from slides) 
+
+In our architecture, we are concentrated on availability and integrability options, and here we have a common communication bus to fulfill our message transportation between components. But there is a problem if this bus fails, there is no alternative, which will be our future work as well as we will also intend to incorporate the deployability quality attribute into the software architecture, so that the system could be more efficiently deployable. For availability, we would like to focus more on how the system could detect the fault before it could happen, and if we have faults, it could roll back to the previous workable state so that there will be no effect for the consumers. 
+%%% Conclusion

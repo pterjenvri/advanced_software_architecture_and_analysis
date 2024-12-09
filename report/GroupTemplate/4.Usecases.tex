@@ -1,0 +1,62 @@
+\section{Use Case}
+\label{sec:use_case}
+In this section, we are proposing the specific use cases the architecture needs to support. However, there may be other use cases which are not present here, so the list of use cases here might not be exhaustive. This section describes the most important cases that the production system architecture must serve in order to achieve its organizational objectives. Each use case describes an important interaction between the Production Manager and the Production Control System, outlining the activities that must be controlled efficiently to maintain smooth production operations. These use cases focus on essential operations like starting, stopping, and modifying production, which are crucial to the system's day-to-day operation.
+
+The goal of these use cases is to guarantee that the system can handle a variety of production circumstances. For example, when production needs to begin, the Production Manager must be able to start the process smoothly. Similarly, the system must be able to halt during manufacturing, without disrupting the completion of ongoing items. Furthermore, the flexibility to change product mid-production. For example, moving to a new production should be achievable, with minimal disturbance to ongoing work.
+
+These examples capture the fundamental interactions required for system functionality, but they are not complete. Additional use cases may emerge as the system evolves or new requirements arise. However, the use cases presented here lay a solid foundation for the system's architecture, guaranteeing that it is adaptive and robust to shifting production needs.
+
+
+\subsection{Use Case 1: Start Production}
+
+\subsubsection{Actors}
+Production Manager, Production Control System
+
+\subsubsection{Preconditions}
+Raw materials are available in the warehouse.
+
+\subsubsection{Steps}
+\begin{description}
+    \item[Step 1:] Production Manager walks to the HMI panel.
+    \item[Step 2:] Production Manager selects a product and presses start production.
+    \item[Step 3:] Production Control System starts the production.
+\end{description}
+
+\subsubsection{Postconditions}
+Production is started.
+
+\subsection{Use Case 2: Stop Production}
+
+\subsubsection{Actors}
+Production Manager, Production Control System
+
+\subsubsection{Preconditions}
+Production is running.
+
+\subsubsection{Steps}
+\begin{description}
+    \item[Step 1:] Production Manager walks to the HMI panel.
+    \item[Step 2:] Production Manager uses the Stop functionality.
+    \item[Step 3:] Production Control System does not start producing products anymore (but the in-progress products are finished).
+\end{description}
+
+\subsubsection{Postconditions}
+Production is stopped, but the products in progress are being finished.
+
+\subsection{Use Case 3: Modify Production}
+
+\subsubsection{Actors}
+Production Manager, Production Control System
+
+\subsubsection{Preconditions}
+Production is running.
+
+\subsubsection{Steps}
+\begin{description}
+    \item[Step 1:] Production Manager walks to the HMI panel.
+    \item[Step 2:] Production Manager changes the product.
+    \item[Step 3:] Production Control System starts producing the newly selected product (in progress products are unchanged).
+\end{description}
+
+\subsubsection{Postconditions}
+Production is changed to the new product (batch), the products already in progress are being finished.\input{5.Qualityattributes}
