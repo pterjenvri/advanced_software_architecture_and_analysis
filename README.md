@@ -1,6 +1,6 @@
 # For the startup instructions, read readme in the src folder
 
-# Link to the Github repository: ```https://github.com/pterjenvri/advanced_software_architecture_and_analysis```
+# Link to the Github repository: [Link](https://github.com/pterjenvri/advanced_software_architecture_and_analysis)
 
 ## Advanced Software Architecture and Analysis Portfolio Template
 
