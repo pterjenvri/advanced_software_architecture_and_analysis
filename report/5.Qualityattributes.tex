@@ -1,3 +1,4 @@
+
 \section{Quality Attribute Scenario}
 \label{sec:qas}
 In this section we are going to discuss quality attribute scenarios. Quality attribute scenario is a common form to describe requirements related to quality attributes. It consists of six parts: Source, Stimulus, Artifact, Environment, Response, and Response Measure.
@@ -9,8 +10,8 @@ In this section we are going to discuss quality attribute scenarios. Quality att
     \item Response: This is the activity that happens when a stimulus has arrived.
     \item Response Measure: The Response should be measurable in some way which makes it testable. The Response Measure describes how the scenario can be tested, so it is decidable whether the architect solved the specific requirement for the system.
 \end{enumerate}
-We use the template below to illustrate a quality attribute scenario \ref{fig:qa_scenario_template}
-\begin{figure}[h]
+We use the template below to illustrate a quality attribute scenario \ref{fig:qa_scenario_template}.
+\begin{figure}[ht]
 \centering
   \includegraphics[width=\linewidth]{images/qa_scenario.png}
   \caption{Quality attribute scenario template}
@@ -40,7 +41,7 @@ HMI software is automatically restarted
 \subsubsection{Response Measure}
 Maximum downtime is 1 second
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
   \includegraphics[height=3cm]{images/qa_scenario_hmi_downtime.png}
   \caption{Availability scenario 1}
@@ -68,7 +69,7 @@ The remaining AGCs continue working
 \subsubsection{Response Measure}
 No downtime
 
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
   \includegraphics[height=3cm]{images/qa_scenario_agc_downtime.png}
   \caption{Availability scenario 2}
@@ -95,7 +96,7 @@ The new AGC is added and ready to use
 
 \subsubsection{Response Measure}
 Maximum 24 hours with no more than 24 person hours of effort
-\begin{figure}[h]
+\begin{figure}[ht]
 \centering
   \includegraphics[height=3cm]{images/qa_scenario_deploy_new_agc.png}
   \caption{Integrability scenario 1}

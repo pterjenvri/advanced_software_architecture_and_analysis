@@ -16,7 +16,7 @@ UPPAAL is an effective tool for employing timed automata to describe, simulate, 
 %. Support Dynamic Scaling: Within the time frame and effort limits, the system should make it easier to integrate new AGC instances.
 
 The three figures \ref{fig:Productline} represents the production line in UPPAAL. It's split into the user, who has two options of interaction with the system, namely starting production and requesting a database lookup, our HMI and a model of the AGC which subscribes the message bus. This model allows 
-\begin{figure}[h]
+\begin{figure}[ht]
   \centering
   \begin{subfigure}[b]{0.4\linewidth}
     \includegraphics[width=\linewidth]{images/User.png}
@@ -40,7 +40,7 @@ The three figures \ref{fig:Productline} represents the production line in UPPAAL
 \ref{fig:Productline} is a specification of the vital parts of the product line system which can be formally verified. Most of the queries that are verified are directly corresponding to the requirements specified in \ref{tab:uppaal_queries} as seen by their id. The first query to be verified ensures that there are no deadlocks occurring in our behavioral model of the Product line. The second query from the Controller of the HMI to the AGC is a query that verifies the liveness of our system guaranteeing that, starting from the Controller state, the system will eventually reach AGC.start\_work which is the state in which the service subscribed to the message bus has received the signal to start production. This query corresponds to req\#5 from the previous section. The third query verifies that the AGC service, from receiving a message, will eventually reach back to the initial state agc1, meaning that the job has finished. The fourth query which checks for liveness between the AGC receiving the order, to finishing it, was not verifiable. The remaining queries ensure that all the states vital are reachable, and eventually return to the initial state where all actions start from. 
 
 
-\begin{table}[h]
+\begin{table}[ht]
 \centering
 \begin{tabular}{|p{4.5cm}|c|c|}
 \hline
