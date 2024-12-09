@@ -1,4 +1,6 @@
-# Advanced Software Architecture and Analysis Portfolio Template
+# For the startup instructions, read readme in the src folder
+
+## Advanced Software Architecture and Analysis Portfolio Template
 
 - [Introduction](#introduction)
   - [.github](#github)

@@ -52,7 +52,7 @@ export default function Home() {
             </tr>
           </thead>
           <tbody>
-            {logs.map((log) => (
+            {logs.map((log: any) => (
               <tr>
                 <td>{log.id}</td>
                 <td>{log.starttime}</td>
